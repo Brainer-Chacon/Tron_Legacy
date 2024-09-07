@@ -1,0 +1,12 @@
+﻿<Window x:Class="tron.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tron" 
+        Width="800" 
+        Height="600"
+        KeyDown="Window_KeyDown"
+        SizeChanged="Window_SizeChanged"
+        ResizeMode="NoResize"> <!-- Evita que la ventana pueda cambiar de tamaño manualmente -->
+
+    <Canvas x:Name="gameCanvas" Background="White"/>
+</Window>
